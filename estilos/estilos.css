@@ -11,8 +11,11 @@ h1 {
 }
 
 main {
-    max-width: 840px;
     padding: 1rem;
+}
+
+main h1 {
+    border-bottom: 1px solid blue;
 }
 
 main img {
@@ -22,6 +25,18 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
 }
 
 aside {
@@ -58,4 +73,30 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid aside {
+    grid-row: 1;
+}
+
+/* .grid aside {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.grid main {
+    grid-row: 1/2;
+    grid-column: 2/3;
+} */
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
 }
