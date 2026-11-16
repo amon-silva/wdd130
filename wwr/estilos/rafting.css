@@ -40,12 +40,31 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+header nav {
+    background-color: var(--cor-destaque1);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.socialmedia a {
     text-decoration: none;
 }
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
+    background-color: var(--cor-destaque2);
+    top: 125px;
 }
 
 .hero img {
