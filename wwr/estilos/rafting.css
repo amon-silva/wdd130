@@ -49,8 +49,11 @@ header nav ul {
 }
 
 header nav a {
-    text-decoration: none;
     color: var(--cor-secundaria);
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .socialmedia a {
