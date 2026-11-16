@@ -1,8 +1,6 @@
 :root {
     --cor-primaria: #055a05;
-    --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -48,10 +46,6 @@ header nav ul {
     list-style: none;
 }
 
-header nav a {
-    color: var(--cor-secundaria);
-}
-
 nav a {
     text-decoration: none;
 }
@@ -66,7 +60,7 @@ nav a {
 
 .hero article {
     position: absolute;
-    background-color: var(--cor-destaque2);
+    background-color: #fff;
     top: 125px;
 }
 
